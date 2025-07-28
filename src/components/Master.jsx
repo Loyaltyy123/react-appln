@@ -11,7 +11,7 @@ const Master = ()=>{
     return(
         <>
             <BrowserRouter>
-                <Suspense fallback={<div>Loading....!</div>}>
+                <Suspense fallback={<div><i class="fas fa-spinner fa-spin fa-3x"></i></div>}>
                     <Routes>
                         <Route path="/" element={<Login></Login>}></Route>
                         <Route path="/dashboard" element={<Dashboard></Dashboard>}>
