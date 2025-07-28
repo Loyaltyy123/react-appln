@@ -1,0 +1,9 @@
+.common{
+    display: inline-block;
+    margin-left: 50px;
+    border: 2px solid gray;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: olive;
+    color: white;
+}
